@@ -4,14 +4,15 @@ git branch -D publish
 
 Checkout
 
-git checkout --orphan latest_branch
+git checkout --orphan publish
 
-Add all the files
+
 
 Delete unwanted files
 
 find . -type f -name 'solutions.js' -exec rm {} +
 
+Add all the files
 git add -A
 
 Commit the changes

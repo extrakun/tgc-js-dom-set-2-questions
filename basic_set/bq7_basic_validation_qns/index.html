@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
+</head>
+<body>
     <div>
-        <input type="checkbox" class="numbers" value="7" /><label>7</label>
-        <input type="checkbox" class="numbers" value="15" /><label>15</label>
-        <input type="checkbox" class="numbers" value="55" /><label>55</label>
-        <input type="checkbox" class="numbers" value="71" /><label><71></label>
-        <input type="checkbox" class="numbers" value="60" /><label>60</label>
-        <input type="checkbox" class="numbers" value="100" /><label>100</label>
+        <label>Number of scoop</label>
+        <input type="text" id="number-of-scoop">
     </div>
     <div>
-        <input type="radio" class="operation" value="plus"><label>Sum</label>
-        <input type="radio" class="operation" value="multiply"><label>Multipy</label>
+        <label style="display:block">Select toppings</label>
+        <div>
+            <input type="checkbox" value="choc">Chocolate Lava
+            <input type="checkbox" value="durian">Stinky Durian
+            <input type="checkbox" value="cornflakes">Cornflakes
+            <input type="checkbox" value="maple">Maple Syrup
+            <input type="checkbox" value="sugar">Sugared Flakes
+        </div>
     </div>
-    <button id="process">Process</button>
-    <!--
-        <script src="script.js"></script>
-    -->
-  </body>
+    <div>
+        <button id="submit">Submit</button>
+    </div>
+</body>
 </html>
